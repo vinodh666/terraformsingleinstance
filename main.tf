@@ -5,7 +5,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "sreeterraformbucket"
+    bucket = "devopsb19artifact"
     key    = "devopsb19jenkins.tfstate"
     region = "us-east-1"
   }
